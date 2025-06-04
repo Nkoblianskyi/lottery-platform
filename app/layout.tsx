@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Big Aussie Chance - Your Gateway to Lottery Dreams",
-  description: "Your trusted platform for Oz Lotto information and services in Victoria, Australia.",
+  description: "Your trusted platform for lottary information and services in Victoria, Australia.",
 }
 
 export default function RootLayout({

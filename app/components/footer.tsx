@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
             <div className="bg-gradient-to-r from-purple-900/50 to-blue-900/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
               <p className="text-gray-300 mb-6 max-w-md">
-                We are your trusted platform for Oz Lotto information and services in Victoria, Australia. Join
+                We are your trusted platform for lottarys information and services in Victoria, Australia. Join
                 thousands of players who trust us with their lottery journey.
               </p>
             </div>
