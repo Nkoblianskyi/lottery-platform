@@ -15,18 +15,20 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Creative Logo Section */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-4 mb-6">
+            <Link href="/" className="flex items-center space-x-3 group">
               <div className="relative">
-                <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 via-orange-500 to-red-500 rounded-full flex items-center justify-center shadow-2xl lottery-ball">
-                  <Star className="text-white" size={32} />
+                {/* Main Logo Circle */}
+                <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 via-orange-500 to-red-500 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300 lottery-ball">
+                  <Star className="text-white animate-spin" size={32} />
                 </div>
-                <div className="absolute -top-1 -right-1 w-6 h-6 bg-gradient-to-br from-pink-400 to-purple-500 rounded-full animate-pulse"></div>
-                <div className="absolute -bottom-1 -left-1 w-4 h-4 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full animate-bounce"></div>
+                {/* Floating Mini Balls */}
+                <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-pink-400 to-purple-500 rounded-full animate-bounce"></div>
+                <div className="absolute -bottom-1 -left-1 w-4 h-4 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full animate-pulse"></div>
               </div>
-              <div>
-                <div className="text-2xl font-bold gradient-text">Big Aussie Chance</div>
+              <div className="text-white">
+                <div className="text-2xl font-bold gradient-text">Australian Chance</div>
               </div>
-            </div>
+            </Link>
             <div className="bg-gradient-to-r from-purple-900/50 to-blue-900/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
               <p className="text-gray-300 mb-6 max-w-md">
                 We are your trusted platform for lottarys information and services in Victoria, Australia. Join
@@ -173,7 +175,7 @@ export default function Footer() {
           {/* Creative Copyright Section */}
           <div className="text-center">
             <div className="bg-gradient-to-r from-gray-800/50 to-gray-700/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
-              <p className="text-gray-400 mb-2">&copy; 2024 Big Aussie Chance. All rights reserved.</p>
+              <p className="text-gray-400 mb-2">&copy; 2025 Australian Chance. All rights reserved.</p>
               <p className="flex items-center justify-center text-gray-400">
                 Made with
                 <Heart className="text-red-500 mx-2 animate-pulse" size={16} />

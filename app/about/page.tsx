@@ -10,7 +10,7 @@ export default function AboutPage() {
       <div className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h1 className="text-6xl font-bold text-white mb-6">About Big Aussie Chance</h1>
+            <h1 className="text-6xl font-bold text-white mb-6">About Australian Chance</h1>
             <p className="text-2xl text-white/90 max-w-3xl mx-auto">
               Your trusted gateway to Lotto dreams in Victoria, Australia
             </p>
@@ -21,8 +21,8 @@ export default function AboutPage() {
               <Users className="text-yellow-400 mb-6" size={48} />
               <h2 className="text-3xl font-bold text-white mb-4">Our Mission</h2>
               <p className="text-white/90 text-lg leading-relaxed">
-                We are dedicated to providing Australians with a safe, reliable, and exciting way to participate in lotterys.
-                Our platform connects lottery enthusiasts with their dreams while maintaining the highest
+                We are dedicated to providing Australians with a safe, reliable, and exciting way to participate in
+                lottery games. Our platform connects lottery enthusiasts with their dreams while maintaining the highest
                 standards of security and customer service.
               </p>
             </div>
@@ -74,9 +74,9 @@ export default function AboutPage() {
             <h2 className="text-4xl font-bold text-center mb-8 text-gray-800">Our Story</h2>
             <div className="max-w-4xl mx-auto text-lg text-gray-700 space-y-6">
               <p>
-                Big Aussie Chance was founded with a simple belief: everyone deserves a chance to dream big. As
+                Australian Chance was founded with a simple belief: everyone deserves a chance to dream big. As
                 passionate Australians who understand the excitement and hope that comes with playing the lottery, we
-                wanted to create a platform that makes participating in lottery easier, safer, and more enjoyable.
+                wanted to create a platform that makes participating in lottery games easier, safer, and more enjoyable.
               </p>
               <p>
                 Based in Victoria, we have deep roots in the Australian community and understand what matters most to
@@ -84,8 +84,8 @@ export default function AboutPage() {
                 who believe that with a little luck and the right opportunity, anything is possible.
               </p>
               <p>
-                Since our launch, we've helped thousands of Australians participate in lottery draws, and we're proud
-                to be part of their journey toward potentially life-changing wins. Every ticket purchased through our
+                Since our launch, we've helped thousands of Australians participate in lottery draws, and we're proud to
+                be part of their journey toward potentially life-changing wins. Every ticket purchased through our
                 platform represents someone's hopes and dreams, and we take that responsibility seriously.
               </p>
             </div>

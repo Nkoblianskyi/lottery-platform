@@ -5,11 +5,9 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Star, Sparkles } from "lucide-react"
 
-interface HeaderProps {
-  onSignUp?: () => void
-}
+type HeaderProps = {}
 
-export default function Header({ onSignUp }: HeaderProps) {
+export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
@@ -28,7 +26,7 @@ export default function Header({ onSignUp }: HeaderProps) {
               <div className="absolute -bottom-1 -left-1 w-4 h-4 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full animate-pulse"></div>
             </div>
             <div className="text-white">
-              <div className="text-2xl font-bold gradient-text">Big Aussie Chance</div>
+              <div className="text-2xl font-bold gradient-text">Australian Chance</div>
             </div>
           </Link>
 
@@ -121,6 +119,9 @@ export default function Header({ onSignUp }: HeaderProps) {
                     SIGN UP
                   </Button>
                 </Link>
+              </div>
+              <div className="text-white">
+                <div className="text-2xl font-bold gradient-text">Australian Chance</div>
               </div>
             </nav>
           </div>

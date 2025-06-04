@@ -56,7 +56,7 @@ export default function LoginPage() {
         <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-12 border border-white/20 shadow-2xl text-center">
           <CheckCircle className="mx-auto text-green-400 mb-6 animate-pulse" size={80} />
           <h2 className="text-4xl font-bold text-green-400 mb-4">Login Successful!</h2>
-          <p className="text-white/90 text-xl">Welcome back to Big Aussie Chance!</p>
+          <p className="text-white/90 text-xl">Welcome back to Australian Chance!</p>
           <div className="flex justify-center items-center gap-2 mt-4">
             {[...Array(5)].map((_, i) => (
               <Star
@@ -104,7 +104,7 @@ export default function LoginPage() {
                   </div>
                   <h1 className="text-4xl font-bold text-white mb-2">Welcome Back!</h1>
                   <p className="text-white/80 flex items-center justify-center gap-2">
-                    Login to your Big Aussie Chance account
+                    Login to your Australian Chance account
                     <Sparkles className="animate-pulse" size={16} />
                   </p>
                 </div>

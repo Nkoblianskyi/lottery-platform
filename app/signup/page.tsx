@@ -53,7 +53,7 @@ export default function SignUpPage() {
         <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-12 border border-white/20 shadow-2xl text-center">
           <CheckCircle className="mx-auto text-green-400 mb-6 animate-pulse" size={80} />
           <h2 className="text-4xl font-bold text-green-400 mb-4">Registration Successful!</h2>
-          <p className="text-white/90 text-xl">Welcome to Big Aussie Chance! Please log in to continue.</p>
+          <p className="text-white/90 text-xl">Welcome to Australian Chance! Please log in to continue.</p>
           <div className="flex justify-center items-center gap-2 mt-4">
             {[...Array(5)].map((_, i) => (
               <Star
@@ -71,7 +71,7 @@ export default function SignUpPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-      <Header onSignUp={() => {}} />
+      <Header />
 
       {/* Floating Lottery Balls */}
       <div className="absolute inset-0 pointer-events-none">
@@ -99,7 +99,7 @@ export default function SignUpPage() {
                   <div className="w-20 h-20 bg-gradient-to-br from-yellow-400 via-orange-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4 lottery-ball">
                     <Star className="text-white animate-spin" size={40} />
                   </div>
-                  <h1 className="text-4xl font-bold text-white mb-2">Join Big Aussie Chance</h1>
+                  <h1 className="text-4xl font-bold text-white mb-2">Join Australian Chance</h1>
                   <p className="text-white/80 flex items-center justify-center gap-2">
                     Join thousands of winners and start your lottery journey today
                     <Sparkles className="animate-pulse" size={16} />
@@ -361,7 +361,7 @@ export default function SignUpPage() {
                         required
                       />
                       <Label htmlFor="terms" className="text-white">
-                        I agree with the policies of bigaussiechance.com and data processing for my inquiry
+                        I agree with the policies of australianchance.com and data processing for my inquiry
                       </Label>
                     </div>
                   </div>

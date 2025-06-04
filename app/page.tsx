@@ -69,7 +69,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
             <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 drop-shadow-2xl">
-              Big Aussie <span className="text-yellow-400 animate-pulse">Chance</span>
+              Australian <span className="text-yellow-400 animate-pulse">Chance</span>
             </h1>
             <div className="relative inline-block">
               <p className="text-2xl text-white/90 mb-8 bg-white/10 backdrop-blur-lg px-8 py-4 rounded-full border border-white/20">
@@ -205,7 +205,7 @@ export default function HomePage() {
               </div>
             </div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Big Aussie Chance is your trusted gateway to lottery dreams, built with passion for the Australian
+              Australian Chance is your trusted gateway to lottery dreams, built with passion for the Australian
               community
             </p>
           </div>
@@ -319,7 +319,7 @@ export default function HomePage() {
               <div className="relative z-10">
                 <h3 className="text-4xl font-bold mb-4">Ready to Start Your Journey?</h3>
                 <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                  Join thousands of Australians who trust Big Aussie Chance for their lottery experience. Your dreams
+                  Join thousands of Australians who trust Australian Chance for their lottery experience. Your dreams
                   are just a click away!
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -562,11 +562,10 @@ export default function HomePage() {
                       <p className="text-white/90 text-lg leading-relaxed">{item.content}</p>
                       {/* Arrow */}
                       <div
-                        className={`absolute top-1/2 transform -translate-y-1/2 w-0 h-0 ${
-                          item.position === "right"
+                        className={`absolute top-1/2 transform -translate-y-1/2 w-0 h-0 ${item.position === "right"
                             ? "-left-4 border-t-8 border-b-8 border-r-8 border-transparent border-r-current"
                             : "-right-4 border-t-8 border-b-8 border-l-8 border-transparent border-l-current"
-                        }`}
+                          }`}
                       ></div>
                     </div>
                   </div>

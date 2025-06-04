@@ -143,6 +143,7 @@ export default function CookiesPage() {
                 </div>
               </section>
 
+
               <div className="bg-orange-50 border border-orange-200 rounded-lg p-6 mt-8">
                 <p className="text-orange-800 font-semibold">
                   By continuing to use our website, you consent to our use of cookies as described in this policy. You
