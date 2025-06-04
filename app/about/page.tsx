@@ -5,7 +5,7 @@ import { Users, Target, Shield, Heart } from "lucide-react"
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-      <Header onSignUp={() => {}} />
+      <Header />
 
       <div className="py-20">
         <div className="container mx-auto px-4">
@@ -21,7 +21,7 @@ export default function AboutPage() {
               <Users className="text-yellow-400 mb-6" size={48} />
               <h2 className="text-3xl font-bold text-white mb-4">Our Mission</h2>
               <p className="text-white/90 text-lg leading-relaxed">
-                We are dedicated to providing Australians with a safe, reliable, and exciting way to participate in lottarys. 
+                We are dedicated to providing Australians with a safe, reliable, and exciting way to participate in lotterys.
                 Our platform connects lottery enthusiasts with their dreams while maintaining the highest
                 standards of security and customer service.
               </p>
@@ -76,7 +76,7 @@ export default function AboutPage() {
               <p>
                 Big Aussie Chance was founded with a simple belief: everyone deserves a chance to dream big. As
                 passionate Australians who understand the excitement and hope that comes with playing the lottery, we
-                wanted to create a platform that makes participating in lottarys easier, safer, and more enjoyable.
+                wanted to create a platform that makes participating in lottery easier, safer, and more enjoyable.
               </p>
               <p>
                 Based in Victoria, we have deep roots in the Australian community and understand what matters most to
@@ -84,7 +84,7 @@ export default function AboutPage() {
                 who believe that with a little luck and the right opportunity, anything is possible.
               </p>
               <p>
-                Since our launch, we've helped thousands of Australians participate in lottarys draws, and we're proud
+                Since our launch, we've helped thousands of Australians participate in lottery draws, and we're proud
                 to be part of their journey toward potentially life-changing wins. Every ticket purchased through our
                 platform represents someone's hopes and dreams, and we take that responsibility seriously.
               </p>

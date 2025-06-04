@@ -5,7 +5,7 @@ import { Cookie, Settings, Info, Shield } from "lucide-react"
 export default function CookiesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-      <Header onSignUp={() => {}} />
+      <Header />
 
       <div className="py-20">
         <div className="container mx-auto px-4">
@@ -139,16 +139,6 @@ export default function CookiesPage() {
                   <p>
                     We may update this Cookies Policy from time to time to reflect changes in our practices or for other
                     operational, legal, or regulatory reasons. Please check this page periodically for updates.
-                  </p>
-                </div>
-              </section>
-
-              <section className="space-y-4">
-                <h3 className="text-2xl font-bold text-gray-800">Contact Us</h3>
-                <div className="text-gray-700">
-                  <p>
-                    If you have any questions about our use of cookies or this Cookies Policy, please contact us at
-                    cookies@bigaussiechance.com.
                   </p>
                 </div>
               </section>

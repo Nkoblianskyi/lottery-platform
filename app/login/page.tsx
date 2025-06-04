@@ -10,12 +10,15 @@ import { Label } from "@/components/ui/label"
 import { Mail, Lock, CheckCircle, Star, Sparkles } from "lucide-react"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import { useRouter } from "next/navigation"
 
 export default function LoginPage() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [errors, setErrors] = useState<{ email?: string; password?: string }>({})
   const [showSuccess, setShowSuccess] = useState(false)
+
+  const router = useRouter()
 
   const validateForm = () => {
     const newErrors: { email?: string; password?: string } = {}
@@ -42,7 +45,7 @@ export default function LoginPage() {
       setShowSuccess(true)
       setTimeout(() => {
         setShowSuccess(false)
-        // Redirect to dashboard or home page
+        router.push("/") // Redirect to home page
       }, 2000)
     }
   }
@@ -71,7 +74,7 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-      <Header onSignUp={() => {}} />
+      <Header />
 
       {/* Floating Lottery Balls */}
       <div className="absolute inset-0 pointer-events-none">
@@ -119,9 +122,8 @@ export default function LoginPage() {
                         placeholder="Enter your email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className={`pl-10 bg-white/20 border-white/30 text-white placeholder-white/60 focus:border-yellow-400 ${
-                          errors.email ? "border-red-500" : ""
-                        }`}
+                        className={`pl-10 bg-white/20 border-white/30 text-white placeholder-white/60 focus:border-yellow-400 ${errors.email ? "border-red-500" : ""
+                          }`}
                       />
                     </div>
                     {errors.email && <p className="text-red-400 text-sm">{errors.email}</p>}
@@ -139,9 +141,8 @@ export default function LoginPage() {
                         placeholder="Enter your password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        className={`pl-10 bg-white/20 border-white/30 text-white placeholder-white/60 focus:border-yellow-400 ${
-                          errors.password ? "border-red-500" : ""
-                        }`}
+                        className={`pl-10 bg-white/20 border-white/30 text-white placeholder-white/60 focus:border-yellow-400 ${errors.password ? "border-red-500" : ""
+                          }`}
                       />
                     </div>
                     {errors.password && <p className="text-red-400 text-sm">{errors.password}</p>}

@@ -5,7 +5,7 @@ import { Shield, Eye, Lock, FileText } from "lucide-react"
 export default function PrivacyPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
-      <Header onSignUp={() => {}} />
+      <Header />
 
       <div className="py-20">
         <div className="container mx-auto px-4">
@@ -110,15 +110,6 @@ export default function PrivacyPage() {
                 </div>
               </section>
 
-              <section className="space-y-4">
-                <h3 className="text-2xl font-bold text-gray-800">Contact Us</h3>
-                <div className="text-gray-700">
-                  <p>
-                    If you have any questions about this Privacy Policy or our privacy practices, please contact us at
-                    privacy@bigaussiechance.com or through our website contact form.
-                  </p>
-                </div>
-              </section>
 
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-8">
                 <p className="text-blue-800 font-semibold">
